@@ -1,0 +1,130 @@
+.font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.centered{
+    text-align: center;
+}
+.bg{
+    background-color: #EAEDED;
+}
+.bg1 {
+    background-color: #222F3E;
+}
+.bg2 {
+    background-color: #354758;
+}
+.bg3 {
+    background-color: #F56600;
+}
+.bgIm {
+    background-image: url(./assets/bg-image.png);
+    background-size: 100% auto;
+    height: auto;
+    background-repeat: repeat-y;
+}
+.bgW{
+    display: flex;
+    flex-direction: column;;
+    background-color: #FFFFFF;
+}
+.white {
+    color: white;
+}
+.link > a {
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+}
+.padding {
+    padding: 5px;
+}
+.margin{
+    margin: 2em 1em;
+}
+.Logo {
+    width: 10em;
+    height: 4em;;
+    padding: 1em;
+}
+.Top {
+    width: 100%;
+    margin: 0%;
+}
+.Bot {
+    display: flex;
+    width: 100%;
+    margin: 0%;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    float: left;
+}
+.container1 {
+    display: flex;
+    padding: 1em 2em;
+    align-items: baseline;
+}
+.container2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 5px;
+}
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 22%;
+}
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 360px;
+    align-items: center;
+}
+.container5 {
+    display: flex;
+    flex-direction: column;
+}
+.newCont {
+    display: flex;
+    justify-content: space-evenly;
+}
+.p {
+    margin: 0;
+}
+.size {
+    font-size: 20px;
+}
+.link1 {
+    text-decoration: none;
+    color: #017185;
+}
+.img img{
+    width: 22%;
+    height: auto;
+    margin: 0.7em;
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px gray;
+}
+.img1 {
+    width: 100%;
+    height: auto;
+}
+.img2 {
+    width: 150px;
+    height: 110px;
+}
+.body {
+    margin: 0%;
+}
+.bold {
+    font-weight: bold;
+}
+.pd {
+    padding: 1em 2em;
+}
